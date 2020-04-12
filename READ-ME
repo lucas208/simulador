@@ -1,0 +1,13 @@
+Passos para compilar o simulador
+Executar os comandos no terminal da pasta onde se encontram os arquivos:
+
+1- g++ -std=c++11 -c biblioteca.cpp main.cpp
+2- g++ -std=c++11 biblioteca.o main.o -o main
+3- ./main Opção desejada no formato que consta na proposta
+exemplos do comando 3:
+
+./main lru arquivo.log 4 128
+./main fifo arquivo.log 4 128
+./main random arquivo.log 4 128
+
+
